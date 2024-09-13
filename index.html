@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro de Productos</title>
+</head >
+<body class="diseño">
+    <h1>Registro de Productos</h1>
+    <form id="registro-producto" action="http://localhost:3000/user" method="POST">
+        <label for="nombre">NOMBRE :</label>
+        <input type="nombre" id="nombre" name="respuesta1">
+        <br>
+        <label for="apellido">APELLIDO :</label>
+        <input type="apellido" name="APELLIDO" id="apellido">
+        <br>
+        <label for="">SEXO :</label>
+        <label for="hombre">hombre</label>
+        <input type="radio" name="sexo" id="hombre" value="hombre">
+        <label for="mujer">mujer</label>
+        <input type="radio" name="sexo" id="mujer" value="mujer">
+        <br>
+        <label for="fecha">FECHA :</label>
+        <input type="datetime-local" name="datetime-local" id="datetime-local">
+        <br>
+        <label for="email">EMAIL :</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="red">Tu color favorito :</label>
+        <input type="color" name="color" id="color" value="color">
+        <br>
+        <br>
+        <button type="submit">Registrar Producto</button>
+    </form>
+</body>
+</html>
